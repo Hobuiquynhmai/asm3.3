@@ -1,0 +1,33 @@
+/* Mobile specific styles using media queries */
+
+/* Mobile specific styles using media queries */
+
+@media (max-width: 576px) {
+  .navbar-nav {
+    display: block;
+  }
+
+  .navbar-nav .nav-item {
+    display: block;
+    padding: 0.5rem 1rem;
+    margin: 0;
+  }
+
+  .navbar-nav .nav-link {
+    display: block;
+    padding: 0.5rem 0;
+  }
+
+  .navbar-nav .nav-link i {
+    margin-right: 5px;
+  }
+
+  #personal-info-container .row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #personal-info-container .row > div {
+    margin-bottom: 20px; /* Add margin between sections */
+  }
+}

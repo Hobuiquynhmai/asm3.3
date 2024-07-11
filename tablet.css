@@ -1,0 +1,35 @@
+/* Tablet specific styles using media queries */
+
+/* Tablet specific styles using media queries */
+
+@media (max-width: 992px) {
+  .navbar-brand {
+    display: none;
+  }
+
+  .navbar-nav .nav-item {
+    display: block;
+  }
+
+  .navbar-nav .nav-item .ten1,
+  .navbar-nav .nav-item .them {
+    display: none; /* Hide the center name section */
+  }
+
+  .navbar-nav {
+    justify-content: space-around;
+  }
+
+  .navbar-nav .nav-link {
+    display: flex;
+    align-items: center;
+  }
+
+  .navbar-nav .nav-link i {
+    margin-right: 5px;
+  }
+
+  #personal-info-container .row > div {
+    padding: 10px; /* Reduce padding for columns */
+  }
+}
